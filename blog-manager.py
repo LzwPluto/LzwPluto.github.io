@@ -704,6 +704,9 @@ class BlogManager(ctk.CTk):
                 self.deploy_btn.configure(text="🚀 一键部署", state="normal")
                 return
             self._log("→ hexo generate ✓")
+            # GitHub Pages 默认用 Jekyll 构建，加 .nojekyll 跳过
+            nojekyll = BASE_DIR / "public" / ".nojekyll"
+            nojekyll.write_text("", encoding="utf-8")
             self._log("→ hexo deploy")
             run_cmd("npx hexo deploy", callback=step_deploy)
 
