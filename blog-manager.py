@@ -266,9 +266,8 @@ class BlogManager(ctk.CTk):
 
         ctk.CTkButton(
             btn_frame, text="🗑 删除", command=self._delete_current,
-            fg_color=THEME["input"], hover_color=THEME["red"],
-            height=36, corner_radius=8, font=ctk.CTkFont(size=13),
-            text_color=THEME["red"]
+            fg_color=THEME["input"], hover_color="#1e1f2e",
+            height=36, corner_radius=8, font=ctk.CTkFont(size=13)
         ).grid(row=0, column=1, sticky="ew", padx=(4, 0))
 
     def _build_editor(self):
