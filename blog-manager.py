@@ -712,12 +712,15 @@ class BlogManager(ctk.CTk):
 
         def step_deploy(success, stdout, stderr):
             if success:
-                # hexo-deployer-git 不强推，手动 git push --force 确保覆盖
-                deploy_git = BASE_DIR / ".deploy_git"
-                if deploy_git.exists():
+                # 确保 .nojekyll 到位（hexo 复制时跳过隐藏文件）
+                deploy_git_path = BASE_DIR / ".deploy_git" / ".nojekyll"
+                deploy_git_path.write_text("", encoding="utf-8")
+                # hexo-deployer-git 不强推，手动追加 --force
+                dg = BASE_DIR / ".deploy_git"
+                if dg.exists():
                     subprocess.run(
-                        "git push --force origin HEAD:main", cwd=str(deploy_git),
-                        shell=True, capture_output=True
+                        "git add .nojekyll && git commit --amend --no-edit && git push --force origin HEAD:main",
+                        cwd=str(dg), shell=True, capture_output=True
                     )
                 self._log("✓ 部署成功！")
                 self._log(f"访问: {self.config.get('url', 'https://lzwpluto.github.io')}")
