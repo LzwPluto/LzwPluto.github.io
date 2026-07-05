@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"lzwpluto.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="本文用来测试博客所有渲染功能，涵盖 Markdown 常见语法及扩展特性。  一、标题层级H1 - 一级标题H2 - 二级标题H3 - 三级标题H4 - 四级标题H5 - 五级标题H6 - 六级标题 二、文本样式这是粗体文字，这是斜体文字，这是粗斜体，这是删除线，这是行内代码。 下划线 和 上标^sup^ 与 下标sub（需要插件，视主题而定）。  三、列表无序列表 项目一 项目二 嵌套项 A 嵌">
+<meta property="og:type" content="article">
+<meta property="og:title" content="博客渲染全功能测试">
+<meta property="og:url" content="https://lzwpluto.github.io/2026/07/05/%E5%8D%9A%E5%AE%A2%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/index.html">
+<meta property="og:site_name" content="我的博客">
+<meta property="og:description" content="本文用来测试博客所有渲染功能，涵盖 Markdown 常见语法及扩展特性。  一、标题层级H1 - 一级标题H2 - 二级标题H3 - 三级标题H4 - 四级标题H5 - 五级标题H6 - 六级标题 二、文本样式这是粗体文字，这是斜体文字，这是粗斜体，这是删除线，这是行内代码。 下划线 和 上标^sup^ 与 下标sub（需要插件，视主题而定）。  三、列表无序列表 项目一 项目二 嵌套项 A 嵌">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-07-05T12:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-05T11:52:15.262Z">
+<meta property="article:author" content="Pluto">
+<meta property="article:tag" content="测试">
+<meta property="article:tag" content="Markdown">
+<meta property="article:tag" content="LaTeX">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://lzwpluto.github.io/2026/07/05/%E5%8D%9A%E5%AE%A2%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://lzwpluto.github.io/2026/07/05/%E5%8D%9A%E5%AE%A2%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/","path":"2026/07/05/博客渲染测试/","title":"博客渲染全功能测试"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>博客渲染全功能测试 | 我的博客</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"ams","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">我的博客</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%A0%87%E9%A2%98%E5%B1%82%E7%BA%A7"><span class="nav-number">1.</span> <span class="nav-text">一、标题层级</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#H1-%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number"></span> <span class="nav-text">H1 - 一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#H2-%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">H2 - 二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#H3-%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">1.1.</span> <span class="nav-text">H3 - 三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#H4-%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">1.1.1.</span> <span class="nav-text">H4 - 四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#H5-%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">H5 - 五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#H6-%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">H6 - 六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">二、文本样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%88%97%E8%A1%A8"><span class="nav-number">3.</span> <span class="nav-text">三、列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">3.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">3.2.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8"><span class="nav-number">3.3.</span> <span class="nav-text">任务列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%BC%95%E7%94%A8"><span class="nav-number">4.</span> <span class="nav-text">四、引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E9%93%BE%E6%8E%A5%E4%B8%8E%E5%9B%BE%E7%89%87"><span class="nav-number">5.</span> <span class="nav-text">五、链接与图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">6.</span> <span class="nav-text">六、代码块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E8%A1%A8%E6%A0%BC"><span class="nav-number">7.</span> <span class="nav-text">七、表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AB%E3%80%81%E5%88%86%E5%89%B2%E7%BA%BF"><span class="nav-number">8.</span> <span class="nav-text">八、分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B9%9D%E3%80%81%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">9.</span> <span class="nav-text">九、数学公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%8C%E5%86%85%E5%85%AC%E5%BC%8F"><span class="nav-number">9.1.</span> <span class="nav-text">行内公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9D%97%E7%BA%A7%E5%85%AC%E5%BC%8F"><span class="nav-number">9.2.</span> <span class="nav-text">块级公式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#begin-pmatrix-a-b-crc-d-end-pmatrix-begin-pmatrix-x-cry-end-pmatrix"><span class="nav-number"></span> <span class="nav-text">$$\begin{pmatrix}a &amp; b \crc &amp; d\end{pmatrix}\begin{pmatrix}x \cry\end{pmatrix}</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8C%96%E5%AD%A6%E6%96%B9%E7%A8%8B%E5%BC%8F"><span class="nav-number">0.1.</span> <span class="nav-text">化学方程式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E3%80%81HTML-%E5%B5%8C%E5%85%A5"><span class="nav-number">1.</span> <span class="nav-text">十、HTML 嵌入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%B8%80%E3%80%81%E8%84%9A%E6%B3%A8"><span class="nav-number">2.</span> <span class="nav-text">十一、脚注</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%BA%8C%E3%80%81%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E4%B8%8E%E8%BD%AC%E4%B9%89"><span class="nav-number">3.</span> <span class="nav-text">十二、特殊字符与转义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%B8%89%E3%80%81%E9%95%BF%E6%96%87%E6%9C%AC%E6%8D%A2%E8%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">十三、长文本换行</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Pluto</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://lzwpluto.github.io/2026/07/05/%E5%8D%9A%E5%AE%A2%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Pluto">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="博客渲染全功能测试 | 我的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          博客渲染全功能测试
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-07-05 20:00:00 / 修改时间：19:52:15" itemprop="dateCreated datePublished" datetime="2026-07-05T20:00:00+08:00">2026-07-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">测试</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>本文用来测试博客所有渲染功能，涵盖 Markdown 常见语法及扩展特性。</p>
+<hr>
+<h2 id="一、标题层级"><a href="#一、标题层级" class="headerlink" title="一、标题层级"></a>一、标题层级</h2><h1 id="H1-一级标题"><a href="#H1-一级标题" class="headerlink" title="H1 - 一级标题"></a>H1 - 一级标题</h1><h2 id="H2-二级标题"><a href="#H2-二级标题" class="headerlink" title="H2 - 二级标题"></a>H2 - 二级标题</h2><h3 id="H3-三级标题"><a href="#H3-三级标题" class="headerlink" title="H3 - 三级标题"></a>H3 - 三级标题</h3><h4 id="H4-四级标题"><a href="#H4-四级标题" class="headerlink" title="H4 - 四级标题"></a>H4 - 四级标题</h4><h5 id="H5-五级标题"><a href="#H5-五级标题" class="headerlink" title="H5 - 五级标题"></a>H5 - 五级标题</h5><h6 id="H6-六级标题"><a href="#H6-六级标题" class="headerlink" title="H6 - 六级标题"></a>H6 - 六级标题</h6><hr>
+<h2 id="二、文本样式"><a href="#二、文本样式" class="headerlink" title="二、文本样式"></a>二、文本样式</h2><p>这是<strong>粗体文字</strong>，这是<em>斜体文字</em>，这是<em><strong>粗斜体</strong></em>，这是<del>删除线</del>，这是<code>行内代码</code>。</p>
+<p><u>下划线</u> 和 上标^sup^ 与 下标<del>sub</del>（需要插件，视主题而定）。</p>
+<hr>
+<h2 id="三、列表"><a href="#三、列表" class="headerlink" title="三、列表"></a>三、列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
+<li>项目一</li>
+<li>项目二<ul>
+<li>嵌套项 A</li>
+<li>嵌套项 B<ul>
+<li>更深层级</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>项目三</li>
+</ul>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
+<li>第一项</li>
+<li>第二项<ol>
+<li>子项 2.1</li>
+<li>子项 2.2</li>
+</ol>
+</li>
+<li>第三项</li>
+</ol>
+<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成任务</li>
+<li><input checked="" disabled="" type="checkbox"> 数学公式测试</li>
+<li><input disabled="" type="checkbox"> 待完成功能</li>
+<li><input disabled="" type="checkbox"> 评论系统</li>
+</ul>
+<hr>
+<h2 id="四、引用"><a href="#四、引用" class="headerlink" title="四、引用"></a>四、引用</h2><blockquote>
+<p>这是一条引用。</p>
+<p>引用可以包含<strong>其他格式</strong>，比如 <code>代码</code>。</p>
+<blockquote>
+<p>嵌套引用也很简单。</p>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="五、链接与图片"><a href="#五、链接与图片" class="headerlink" title="五、链接与图片"></a>五、链接与图片</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo 官网</a></p>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/" title="Hexo 博客框架">带标题的链接</a></p>
+<p>自动链接：<a target="_blank" rel="noopener" href="https://www.github.com/">https://www.github.com</a></p>
+<hr>
+<h2 id="六、代码块"><a href="#六、代码块" class="headerlink" title="六、代码块"></a>六、代码块</h2><p>Python 语法高亮：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">fibonacci</span>(<span class="params">n: <span class="built_in">int</span></span>) -&gt; <span class="built_in">list</span>[<span class="built_in">int</span>]:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;生成斐波那契数列&quot;&quot;&quot;</span></span><br><span class="line">    a, b = <span class="number">0</span>, <span class="number">1</span></span><br><span class="line">    result = []</span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">        result.append(a)</span><br><span class="line">        a, b = b, a + b</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(fibonacci(<span class="number">10</span>))  <span class="comment"># [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</span></span><br></pre></td></tr></table></figure>
+
+<p>JavaScript 语法高亮：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">greet</span> = (<span class="params">name</span>) =&gt; &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`Hello, <span class="subst">$&#123;name&#125;</span>!`</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">greet</span>(<span class="string">&quot;World&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>Bash 命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看进程</span></span><br><span class="line">ps aux | grep node</span><br><span class="line"><span class="comment"># 部署博客</span></span><br><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>纯文本代码块：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">没有语言标识的代码块</span><br><span class="line">还是会等宽字体显示</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h2><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="center">版本</th>
+<th align="right">状态</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Hexo</td>
+<td align="center">7.3.0</td>
+<td align="right">正常</td>
+<td>博客框架</td>
+</tr>
+<tr>
+<td align="left">NexT</td>
+<td align="center">8.28.0</td>
+<td align="right">正常</td>
+<td>主题</td>
+</tr>
+<tr>
+<td align="left">Node.js</td>
+<td align="center">24.x</td>
+<td align="right">LTS</td>
+<td>运行环境</td>
+</tr>
+<tr>
+<td align="left">MathJax</td>
+<td align="center">3.x</td>
+<td align="right">启用</td>
+<td>数学公式渲染</td>
+</tr>
+</tbody></table>
+<p>对齐说明：<code>:------</code> 左对齐，<code>:----:</code> 居中，<code>-----:</code> 右对齐。</p>
+<hr>
+<h2 id="八、分割线"><a href="#八、分割线" class="headerlink" title="八、分割线"></a>八、分割线</h2><p>上面已有三条分割线 <code>***</code>，这里再放一条 HTML 形式的：</p>
+<hr>
+
+<p>三种写法在 Hexo 中的表现：</p>
+<ul>
+<li><code>***</code> ✓ 推荐</li>
+<li><code>---</code> ✗ 会被解析为 frontmatter 分隔符</li>
+<li><code>&lt;hr&gt;</code> ✓ 始终有效</li>
+</ul>
+<hr>
+<h2 id="九、数学公式"><a href="#九、数学公式" class="headerlink" title="九、数学公式"></a>九、数学公式</h2><h3 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h3><p>爱因斯坦质能方程：$E &#x3D; mc^2$</p>
+<p>勾股定理：$a^2 + b^2 &#x3D; c^2$</p>
+<p>黄金分割：$\varphi &#x3D; \frac{1 + \sqrt{5}}{2}$</p>
+<h3 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h3><p>欧拉恒等式：</p>
+<p>$$<br>e^{i\pi} + 1 &#x3D; 0<br>$$</p>
+<p>高斯积分：</p>
+<p>$$<br>\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}<br>$$</p>
+<p>麦克斯韦方程组（微分形式）：</p>
+<p>$$<br>\begin{aligned}<br>\nabla \cdot \mathbf{E} &amp;&#x3D; \frac{\rho}{\varepsilon_0} \cr<br>\nabla \cdot \mathbf{B} &amp;&#x3D; 0 \cr<br>\nabla \times \mathbf{E} &amp;&#x3D; -\frac{\partial \mathbf{B}}{\partial t} \cr<br>\nabla \times \mathbf{B} &amp;&#x3D; \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}<br>\end{aligned}<br>$$</p>
+<p>矩阵：</p>
+<h1 id="begin-pmatrix-a-b-crc-d-end-pmatrix-begin-pmatrix-x-cry-end-pmatrix"><a href="#begin-pmatrix-a-b-crc-d-end-pmatrix-begin-pmatrix-x-cry-end-pmatrix" class="headerlink" title="$$\begin{pmatrix}a &amp; b \crc &amp; d\end{pmatrix}\begin{pmatrix}x \cry\end{pmatrix}"></a>$$<br>\begin{pmatrix}<br>a &amp; b \cr<br>c &amp; d<br>\end{pmatrix}<br>\begin{pmatrix}<br>x \cr<br>y<br>\end{pmatrix}</h1><p>\begin{pmatrix}<br>ax + by \cr<br>cx + dy<br>\end{pmatrix}<br>$$</p>
+<p>求和与极限：</p>
+<p>$$<br>\sum_{n&#x3D;1}^{\infty} \frac{1}{n^2} &#x3D; \frac{\pi^2}{6}<br>\qquad<br>\lim_{x \to 0} \frac{\sin x}{x} &#x3D; 1<br>$$</p>
+<h3 id="化学方程式"><a href="#化学方程式" class="headerlink" title="化学方程式"></a>化学方程式</h3><p>$$<br>\ce{2H2 + O2 -&gt; 2H2O}<br>$$</p>
+<hr>
+<h2 id="十、HTML-嵌入"><a href="#十、HTML-嵌入" class="headerlink" title="十、HTML 嵌入"></a>十、HTML 嵌入</h2><details>
+<summary>点击展开折叠内容</summary>
+
+<p>这是折叠区域的内容。</p>
+<ul>
+<li>可以有列表</li>
+<li>可以有任何 Markdown</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello from inside details!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+</details>
+
+<br>
+
+<p><kbd>Ctrl</kbd> + <kbd>C</kbd> 复制，<kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴。</p>
+<hr>
+<h2 id="十一、脚注"><a href="#十一、脚注" class="headerlink" title="十一、脚注"></a>十一、脚注</h2><p>这是一个带脚注的句子<a href="%E7%AC%AC%E4%B8%80%E4%B8%AA%E8%84%9A%E6%B3%A8%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82">^1</a>，这是另一个脚注<a href="%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%AF%94%E8%BE%83%E9%95%BF%E7%9A%84%E8%84%9A%E6%B3%A8%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%8C%85%E5%90%AB**%E6%A0%BC%E5%BC%8F%E5%8C%96**%E3%80%81%60%E4%BB%A3%E7%A0%81%60%E3%80%81%E7%94%9A%E8%87%B3%5B%E9%93%BE%E6%8E%A5%5D(https://example.com)%E3%80%82">^long-note</a>。</p>
+<hr>
+<h2 id="十二、特殊字符与转义"><a href="#十二、特殊字符与转义" class="headerlink" title="十二、特殊字符与转义"></a>十二、特殊字符与转义</h2><p>Markdown 特殊字符需要转义显示：</p>
+<table>
+<thead>
+<tr>
+<th align="center">字符</th>
+<th align="center">转义写法</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">*</td>
+<td align="center"><code>\*</code></td>
+<td>星号</td>
+</tr>
+<tr>
+<td align="center">_</td>
+<td align="center"><code>\_</code></td>
+<td>下划线</td>
+</tr>
+<tr>
+<td align="center">{</td>
+<td align="center"><code>\&#123;</code></td>
+<td>花括号</td>
+</tr>
+<tr>
+<td align="center">#</td>
+<td align="center"><code>\#</code></td>
+<td>井号</td>
+</tr>
+<tr>
+<td align="center">`</td>
+<td align="center"><code>\`</code></td>
+<td>反引号</td>
+</tr>
+<tr>
+<td align="center">|</td>
+<td align="center"><code>|</code></td>
+<td>表格竖线</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="十三、长文本换行"><a href="#十三、长文本换行" class="headerlink" title="十三、长文本换行"></a>十三、长文本换行</h2><p>这段文字演示了段落中的<br>强制换行效果。换行后继续同段落内容。</p>
+<p>这段文字演示了段落中的  </p>
+<p>两个空格换行效果。换行后继续同段落内容。（行末两个空格，部分渲染器支持）</p>
+<hr>
+<p><em>全文完 —— 如果以上内容全部正常渲染，博客的 Markdown 功能就是完整的。</em></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag"># 测试</a>
+              <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+              <a href="/tags/LaTeX/" rel="tag"># LaTeX</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/07/05/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" rel="prev" title="博客测试文章：一站式体验常见博客排版元素">
+                  <i class="fa fa-angle-left"></i> 博客测试文章：一站式体验常见博客排版元素
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Pluto</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>

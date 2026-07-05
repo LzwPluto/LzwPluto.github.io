@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"lzwpluto.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta property="og:type" content="website">
+<meta property="og:title" content="我的博客">
+<meta property="og:url" content="https://lzwpluto.github.io/index.html">
+<meta property="og:site_name" content="我的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Pluto">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://lzwpluto.github.io/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>我的博客</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"ams","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">我的博客</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Pluto</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://lzwpluto.github.io/2026/07/05/%E5%8D%9A%E5%AE%A2%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Pluto">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 我的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/07/05/%E5%8D%9A%E5%AE%A2%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/" class="post-title-link" itemprop="url">博客渲染全功能测试</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-07-05 20:00:00 / 修改时间：19:52:15" itemprop="dateCreated datePublished" datetime="2026-07-05T20:00:00+08:00">2026-07-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">测试</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>本文用来测试博客所有渲染功能，涵盖 Markdown 常见语法及扩展特性。</p>
+<hr>
+<h2 id="一、标题层级"><a href="#一、标题层级" class="headerlink" title="一、标题层级"></a>一、标题层级</h2><h1 id="H1-一级标题"><a href="#H1-一级标题" class="headerlink" title="H1 - 一级标题"></a>H1 - 一级标题</h1><h2 id="H2-二级标题"><a href="#H2-二级标题" class="headerlink" title="H2 - 二级标题"></a>H2 - 二级标题</h2><h3 id="H3-三级标题"><a href="#H3-三级标题" class="headerlink" title="H3 - 三级标题"></a>H3 - 三级标题</h3><h4 id="H4-四级标题"><a href="#H4-四级标题" class="headerlink" title="H4 - 四级标题"></a>H4 - 四级标题</h4><h5 id="H5-五级标题"><a href="#H5-五级标题" class="headerlink" title="H5 - 五级标题"></a>H5 - 五级标题</h5><h6 id="H6-六级标题"><a href="#H6-六级标题" class="headerlink" title="H6 - 六级标题"></a>H6 - 六级标题</h6><hr>
+<h2 id="二、文本样式"><a href="#二、文本样式" class="headerlink" title="二、文本样式"></a>二、文本样式</h2><p>这是<strong>粗体文字</strong>，这是<em>斜体文字</em>，这是<em><strong>粗斜体</strong></em>，这是<del>删除线</del>，这是<code>行内代码</code>。</p>
+<p><u>下划线</u> 和 上标^sup^ 与 下标<del>sub</del>（需要插件，视主题而定）。</p>
+<hr>
+<h2 id="三、列表"><a href="#三、列表" class="headerlink" title="三、列表"></a>三、列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
+<li>项目一</li>
+<li>项目二<ul>
+<li>嵌套项 A</li>
+<li>嵌套项 B<ul>
+<li>更深层级</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>项目三</li>
+</ul>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
+<li>第一项</li>
+<li>第二项<ol>
+<li>子项 2.1</li>
+<li>子项 2.2</li>
+</ol>
+</li>
+<li>第三项</li>
+</ol>
+<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成任务</li>
+<li><input checked="" disabled="" type="checkbox"> 数学公式测试</li>
+<li><input disabled="" type="checkbox"> 待完成功能</li>
+<li><input disabled="" type="checkbox"> 评论系统</li>
+</ul>
+<hr>
+<h2 id="四、引用"><a href="#四、引用" class="headerlink" title="四、引用"></a>四、引用</h2><blockquote>
+<p>这是一条引用。</p>
+<p>引用可以包含<strong>其他格式</strong>，比如 <code>代码</code>。</p>
+<blockquote>
+<p>嵌套引用也很简单。</p>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="五、链接与图片"><a href="#五、链接与图片" class="headerlink" title="五、链接与图片"></a>五、链接与图片</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo 官网</a></p>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/" title="Hexo 博客框架">带标题的链接</a></p>
+<p>自动链接：<a target="_blank" rel="noopener" href="https://www.github.com/">https://www.github.com</a></p>
+<hr>
+<h2 id="六、代码块"><a href="#六、代码块" class="headerlink" title="六、代码块"></a>六、代码块</h2><p>Python 语法高亮：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">fibonacci</span>(<span class="params">n: <span class="built_in">int</span></span>) -&gt; <span class="built_in">list</span>[<span class="built_in">int</span>]:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;生成斐波那契数列&quot;&quot;&quot;</span></span><br><span class="line">    a, b = <span class="number">0</span>, <span class="number">1</span></span><br><span class="line">    result = []</span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">        result.append(a)</span><br><span class="line">        a, b = b, a + b</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(fibonacci(<span class="number">10</span>))  <span class="comment"># [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</span></span><br></pre></td></tr></table></figure>
+
+<p>JavaScript 语法高亮：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">greet</span> = (<span class="params">name</span>) =&gt; &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`Hello, <span class="subst">$&#123;name&#125;</span>!`</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">greet</span>(<span class="string">&quot;World&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>Bash 命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看进程</span></span><br><span class="line">ps aux | grep node</span><br><span class="line"><span class="comment"># 部署博客</span></span><br><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>纯文本代码块：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">没有语言标识的代码块</span><br><span class="line">还是会等宽字体显示</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h2><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="center">版本</th>
+<th align="right">状态</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Hexo</td>
+<td align="center">7.3.0</td>
+<td align="right">正常</td>
+<td>博客框架</td>
+</tr>
+<tr>
+<td align="left">NexT</td>
+<td align="center">8.28.0</td>
+<td align="right">正常</td>
+<td>主题</td>
+</tr>
+<tr>
+<td align="left">Node.js</td>
+<td align="center">24.x</td>
+<td align="right">LTS</td>
+<td>运行环境</td>
+</tr>
+<tr>
+<td align="left">MathJax</td>
+<td align="center">3.x</td>
+<td align="right">启用</td>
+<td>数学公式渲染</td>
+</tr>
+</tbody></table>
+<p>对齐说明：<code>:------</code> 左对齐，<code>:----:</code> 居中，<code>-----:</code> 右对齐。</p>
+<hr>
+<h2 id="八、分割线"><a href="#八、分割线" class="headerlink" title="八、分割线"></a>八、分割线</h2><p>上面已有三条分割线 <code>***</code>，这里再放一条 HTML 形式的：</p>
+<hr>
+
+<p>三种写法在 Hexo 中的表现：</p>
+<ul>
+<li><code>***</code> ✓ 推荐</li>
+<li><code>---</code> ✗ 会被解析为 frontmatter 分隔符</li>
+<li><code>&lt;hr&gt;</code> ✓ 始终有效</li>
+</ul>
+<hr>
+<h2 id="九、数学公式"><a href="#九、数学公式" class="headerlink" title="九、数学公式"></a>九、数学公式</h2><h3 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h3><p>爱因斯坦质能方程：$E &#x3D; mc^2$</p>
+<p>勾股定理：$a^2 + b^2 &#x3D; c^2$</p>
+<p>黄金分割：$\varphi &#x3D; \frac{1 + \sqrt{5}}{2}$</p>
+<h3 id="块级公式"><a href="#块级公式" class="headerlink" title="块级公式"></a>块级公式</h3><p>欧拉恒等式：</p>
+<p>$$<br>e^{i\pi} + 1 &#x3D; 0<br>$$</p>
+<p>高斯积分：</p>
+<p>$$<br>\int_{-\infty}^{\infty} e^{-x^2} , dx &#x3D; \sqrt{\pi}<br>$$</p>
+<p>麦克斯韦方程组（微分形式）：</p>
+<p>$$<br>\begin{aligned}<br>\nabla \cdot \mathbf{E} &amp;&#x3D; \frac{\rho}{\varepsilon_0} \cr<br>\nabla \cdot \mathbf{B} &amp;&#x3D; 0 \cr<br>\nabla \times \mathbf{E} &amp;&#x3D; -\frac{\partial \mathbf{B}}{\partial t} \cr<br>\nabla \times \mathbf{B} &amp;&#x3D; \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}<br>\end{aligned}<br>$$</p>
+<p>矩阵：</p>
+<h1 id="begin-pmatrix-a-b-crc-d-end-pmatrix-begin-pmatrix-x-cry-end-pmatrix"><a href="#begin-pmatrix-a-b-crc-d-end-pmatrix-begin-pmatrix-x-cry-end-pmatrix" class="headerlink" title="$$\begin{pmatrix}a &amp; b \crc &amp; d\end{pmatrix}\begin{pmatrix}x \cry\end{pmatrix}"></a>$$<br>\begin{pmatrix}<br>a &amp; b \cr<br>c &amp; d<br>\end{pmatrix}<br>\begin{pmatrix}<br>x \cr<br>y<br>\end{pmatrix}</h1><p>\begin{pmatrix}<br>ax + by \cr<br>cx + dy<br>\end{pmatrix}<br>$$</p>
+<p>求和与极限：</p>
+<p>$$<br>\sum_{n&#x3D;1}^{\infty} \frac{1}{n^2} &#x3D; \frac{\pi^2}{6}<br>\qquad<br>\lim_{x \to 0} \frac{\sin x}{x} &#x3D; 1<br>$$</p>
+<h3 id="化学方程式"><a href="#化学方程式" class="headerlink" title="化学方程式"></a>化学方程式</h3><p>$$<br>\ce{2H2 + O2 -&gt; 2H2O}<br>$$</p>
+<hr>
+<h2 id="十、HTML-嵌入"><a href="#十、HTML-嵌入" class="headerlink" title="十、HTML 嵌入"></a>十、HTML 嵌入</h2><details>
+<summary>点击展开折叠内容</summary>
+
+<p>这是折叠区域的内容。</p>
+<ul>
+<li>可以有列表</li>
+<li>可以有任何 Markdown</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello from inside details!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+</details>
+
+<br>
+
+<p><kbd>Ctrl</kbd> + <kbd>C</kbd> 复制，<kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴。</p>
+<hr>
+<h2 id="十一、脚注"><a href="#十一、脚注" class="headerlink" title="十一、脚注"></a>十一、脚注</h2><p>这是一个带脚注的句子<a href="%E7%AC%AC%E4%B8%80%E4%B8%AA%E8%84%9A%E6%B3%A8%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82">^1</a>，这是另一个脚注<a href="%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%AF%94%E8%BE%83%E9%95%BF%E7%9A%84%E8%84%9A%E6%B3%A8%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%8C%85%E5%90%AB**%E6%A0%BC%E5%BC%8F%E5%8C%96**%E3%80%81%60%E4%BB%A3%E7%A0%81%60%E3%80%81%E7%94%9A%E8%87%B3%5B%E9%93%BE%E6%8E%A5%5D(https://example.com)%E3%80%82">^long-note</a>。</p>
+<hr>
+<h2 id="十二、特殊字符与转义"><a href="#十二、特殊字符与转义" class="headerlink" title="十二、特殊字符与转义"></a>十二、特殊字符与转义</h2><p>Markdown 特殊字符需要转义显示：</p>
+<table>
+<thead>
+<tr>
+<th align="center">字符</th>
+<th align="center">转义写法</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">*</td>
+<td align="center"><code>\*</code></td>
+<td>星号</td>
+</tr>
+<tr>
+<td align="center">_</td>
+<td align="center"><code>\_</code></td>
+<td>下划线</td>
+</tr>
+<tr>
+<td align="center">{</td>
+<td align="center"><code>\&#123;</code></td>
+<td>花括号</td>
+</tr>
+<tr>
+<td align="center">#</td>
+<td align="center"><code>\#</code></td>
+<td>井号</td>
+</tr>
+<tr>
+<td align="center">`</td>
+<td align="center"><code>\`</code></td>
+<td>反引号</td>
+</tr>
+<tr>
+<td align="center">|</td>
+<td align="center"><code>|</code></td>
+<td>表格竖线</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="十三、长文本换行"><a href="#十三、长文本换行" class="headerlink" title="十三、长文本换行"></a>十三、长文本换行</h2><p>这段文字演示了段落中的<br>强制换行效果。换行后继续同段落内容。</p>
+<p>这段文字演示了段落中的  </p>
+<p>两个空格换行效果。换行后继续同段落内容。（行末两个空格，部分渲染器支持）</p>
+<hr>
+<p><em>全文完 —— 如果以上内容全部正常渲染，博客的 Markdown 功能就是完整的。</em></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://lzwpluto.github.io/2026/07/05/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Pluto">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 我的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/07/05/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">博客测试文章：一站式体验常见博客排版元素</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-07-05 19:23:08 / 修改时间：19:23:52" itemprop="dateCreated datePublished" datetime="2026-07-05T19:23:08+08:00">2026-07-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">博客测试</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="博客测试文章：一站式体验常见博客排版元素"><a href="#博客测试文章：一站式体验常见博客排版元素" class="headerlink" title="博客测试文章：一站式体验常见博客排版元素"></a>博客测试文章：一站式体验常见博客排版元素</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是一篇专门用于测试博客系统排版效果的综合性文章。它涵盖了博客写作中绝大多数常见的<strong>块级元素</strong>和<strong>行内元素</strong>，包括多级标题、代码块、表格、引用、列表、Tab 切换、图片占位、数学公式等。通过这篇文章，您可以快速检验博客主题的样式是否完整、响应式是否良好。</p>
+<hr>
+<h2 id="一、多级标题测试"><a href="#一、多级标题测试" class="headerlink" title="一、多级标题测试"></a>一、多级标题测试</h2><h3 id="1-1-三级标题（H3）"><a href="#1-1-三级标题（H3）" class="headerlink" title="1.1 三级标题（H3）"></a>1.1 三级标题（H3）</h3><p>这是三级标题下的正文内容。博客文章通常通过多级标题来组织内容结构，方便读者快速浏览和定位。</p>
+<h4 id="1-1-1-四级标题（H4）"><a href="#1-1-1-四级标题（H4）" class="headerlink" title="1.1.1 四级标题（H4）"></a>1.1.1 四级标题（H4）</h4><p>这是四级标题下的正文。某些博客主题支持 H4 及更深层级的标题样式，以提供更细致的结构化写作能力。</p>
+<h5 id="五级标题（H5）"><a href="#五级标题（H5）" class="headerlink" title="五级标题（H5）"></a>五级标题（H5）</h5><p>这是五级标题下的内容。虽然在实际写作中较少用到 H5 和 H6，但为了完整性，这里一并测试。</p>
+<h6 id="六级标题（H6）"><a href="#六级标题（H6）" class="headerlink" title="六级标题（H6）"></a>六级标题（H6）</h6><p>这是六级标题下的内容。至此，所有层级的标题均已覆盖。</p>
+<hr>
+<h2 id="二、文本样式与行内元素测试"><a href="#二、文本样式与行内元素测试" class="headerlink" title="二、文本样式与行内元素测试"></a>二、文本样式与行内元素测试</h2><p>这是一段包含多种<strong>行内样式</strong>的测试文本：</p>
+<ul>
+<li><strong>粗体文字</strong>（Bold）</li>
+<li><em>斜体文字</em>（Italic）</li>
+<li><em><strong>粗斜体文字</strong></em>（Bold Italic）</li>
+<li><del>删除线文字</del>（Strikethrough）</li>
+<li><code>行内代码</code>（Inline Code）</li>
+<li>这是一个<a href="#">超链接示例</a></li>
+<li>脚注示例 [1] 以及行内注 ^[这是行内注]。</li>
+<li><u>下划线文字</u>（Underline，需主题支持）</li>
+<li>&#x3D;&#x3D;高亮标记&#x3D;&#x3D;（Highlight，需主题支持）</li>
+</ul>
+<hr>
+<h2 id="三、引用与提示块测试"><a href="#三、引用与提示块测试" class="headerlink" title="三、引用与提示块测试"></a>三、引用与提示块测试</h2><h3 id="3-1-普通引用"><a href="#3-1-普通引用" class="headerlink" title="3.1 普通引用"></a>3.1 普通引用</h3><blockquote>
+<p>这是普通的引用块。通常用于摘录他人观点或引述文献内容。<br>引用块可以包含多行内容，并且支持<strong>加粗</strong>、<code>代码</code>等行内样式。</p>
+</blockquote>
+<h3 id="3-2-嵌套引用"><a href="#3-2-嵌套引用" class="headerlink" title="3.2 嵌套引用"></a>3.2 嵌套引用</h3><blockquote>
+<p>这是外层引用。</p>
+<blockquote>
+<p>这是内层嵌套引用，用于测试引用块的嵌套样式。</p>
+</blockquote>
+</blockquote>
+<h3 id="3-3-提示块（Admonition-Callout）"><a href="#3-3-提示块（Admonition-Callout）" class="headerlink" title="3.3 提示块（Admonition &#x2F; Callout）"></a>3.3 提示块（Admonition &#x2F; Callout）</h3><p>::: tip 提示<br>这是一个提示块，通常用于给读者一些额外的注意点或小贴士。<br>:::</p>
+<p>::: warning 注意<br>这是一个警告块，用于提醒读者注意某些潜在问题或风险。<br>:::</p>
+<p>::: danger 危险<br>这是一个危险块，用于强调非常严重的问题或操作风险。<br>:::</p>
+<p>::: info 信息<br>这是一个信息块，用于提供补充性的背景知识或参考资料。<br>:::</p>
+<hr>
+<h2 id="四、列表测试"><a href="#四、列表测试" class="headerlink" title="四、列表测试"></a>四、列表测试</h2><h3 id="4-1-无序列表"><a href="#4-1-无序列表" class="headerlink" title="4.1 无序列表"></a>4.1 无序列表</h3><ul>
+<li>第一层级项目 A</li>
+<li>第一层级项目 B<ul>
+<li>第二层级子项目 B.1</li>
+<li>第二层级子项目 B.2<ul>
+<li>第三层级子项目 B.2.1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>第一层级项目 C</li>
+</ul>
+<h3 id="4-2-有序列表"><a href="#4-2-有序列表" class="headerlink" title="4.2 有序列表"></a>4.2 有序列表</h3><ol>
+<li>第一步：初始化项目</li>
+<li>第二步：安装依赖<ol>
+<li>子步骤 2.1：安装核心库</li>
+<li>子步骤 2.2：安装开发工具</li>
+</ol>
+</li>
+<li>第三步：启动开发服务器</li>
+</ol>
+<h3 id="4-3-任务列表（Task-List）"><a href="#4-3-任务列表（Task-List）" class="headerlink" title="4.3 任务列表（Task List）"></a>4.3 任务列表（Task List）</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成任务一</li>
+<li><input checked="" disabled="" type="checkbox"> 已完成任务二</li>
+<li><input disabled="" type="checkbox"> 未完成任务三</li>
+<li><input disabled="" type="checkbox"> 未完成任务四<ul>
+<li><input checked="" disabled="" type="checkbox"> 子任务 4.1 已完成</li>
+<li><input disabled="" type="checkbox"> 子任务 4.2 未完成</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-4-定义列表"><a href="#4-4-定义列表" class="headerlink" title="4.4 定义列表"></a>4.4 定义列表</h3><dl><dt>: 前端框架</dt><dd>用于构建用户界面的 JavaScript 库或框架，如 React、Vue、Angular。</dd></dl><dl><dt>: 静态站点生成器</dt><dd>在构建时生成完整 HTML 页面的工具，如 Hugo、VitePress、Next.js。</dd></dl><hr>
+<h2 id="五、代码块测试"><a href="#五、代码块测试" class="headerlink" title="五、代码块测试"></a>五、代码块测试</h2><h3 id="5-1-普通代码块（无语言）"><a href="#5-1-普通代码块（无语言）" class="headerlink" title="5.1 普通代码块（无语言）"></a>5.1 普通代码块（无语言）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">function hello() &#123;</span><br><span class="line">  console.log(&quot;Hello, Blog Test!&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-2-带语言标识的代码块（JavaScript）"><a href="#5-2-带语言标识的代码块（JavaScript）" class="headerlink" title="5.2 带语言标识的代码块（JavaScript）"></a>5.2 带语言标识的代码块（JavaScript）</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// JavaScript 示例：斐波那契数列</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">fibonacci</span>(<span class="params">n</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (n &lt;= <span class="number">1</span>) <span class="keyword">return</span> n;</span><br><span class="line">  <span class="keyword">return</span> <span class="title function_">fibonacci</span>(n - <span class="number">1</span>) + <span class="title function_">fibonacci</span>(n - <span class="number">2</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">fibonacci</span>(<span class="number">10</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`Fibonacci(10) = <span class="subst">$&#123;result&#125;</span>`</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-3-Python-代码块"><a href="#5-3-Python-代码块" class="headerlink" title="5.3 Python 代码块"></a>5.3 Python 代码块</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Python 示例：列表推导式</span></span><br><span class="line">squares = [x**<span class="number">2</span> <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>) <span class="keyword">if</span> x % <span class="number">2</span> == <span class="number">0</span>]</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;偶数平方: <span class="subst">&#123;squares&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-4-命令行-Shell"><a href="#5-4-命令行-Shell" class="headerlink" title="5.4 命令行 &#x2F; Shell"></a>5.4 命令行 &#x2F; Shell</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装依赖</span></span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动开发服务</span></span><br><span class="line">npm run dev</span><br><span class="line"></span><br><span class="line"><span class="comment"># 构建生产版本</span></span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-5-JSON-示例"><a href="#5-5-JSON-示例" class="headerlink" title="5.5 JSON 示例"></a>5.5 JSON 示例</h3><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;博客测试&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;测试者&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;tags&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;test&quot;</span><span class="punctuation">,</span> <span class="string">&quot;demo&quot;</span><span class="punctuation">,</span> <span class="string">&quot;markdown&quot;</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-6-带有行号和高亮的代码块（需插件支持）"><a href="#5-6-带有行号和高亮的代码块（需插件支持）" class="headerlink" title="5.6 带有行号和高亮的代码块（需插件支持）"></a>5.6 带有行号和高亮的代码块（需插件支持）</h3><figure class="highlight java"><figcaption><span>[1-3] &#123;2,4&#125;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">        <span class="comment">// 这一行会被高亮</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="六、表格测试"><a href="#六、表格测试" class="headerlink" title="六、表格测试"></a>六、表格测试</h2><h3 id="6-1-基础表格"><a href="#6-1-基础表格" class="headerlink" title="6.1 基础表格"></a>6.1 基础表格</h3><table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>年龄</th>
+<th>职业</th>
+<th>城市</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>张三</td>
+<td>28</td>
+<td>工程师</td>
+<td>北京</td>
+</tr>
+<tr>
+<td>李四</td>
+<td>34</td>
+<td>设计师</td>
+<td>上海</td>
+</tr>
+<tr>
+<td>王五</td>
+<td>22</td>
+<td>学生</td>
+<td>广州</td>
+</tr>
+<tr>
+<td>赵六</td>
+<td>31</td>
+<td>产品经理</td>
+<td>深圳</td>
+</tr>
+</tbody></table>
+<h3 id="6-2-带对齐方式的表格"><a href="#6-2-带对齐方式的表格" class="headerlink" title="6.2 带对齐方式的表格"></a>6.2 带对齐方式的表格</h3><table>
+<thead>
+<tr>
+<th align="left">左对齐（默认）</th>
+<th align="center">居中对齐</th>
+<th align="right">右对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">内容 A</td>
+<td align="center">居中A</td>
+<td align="right">100</td>
+</tr>
+<tr>
+<td align="left">内容 B</td>
+<td align="center">居中B</td>
+<td align="right">200</td>
+</tr>
+<tr>
+<td align="left">内容 C</td>
+<td align="center">居中C</td>
+<td align="right">300</td>
+</tr>
+</tbody></table>
+<h3 id="6-3-复杂表格（含合并单元格，需-HTML-支持）"><a href="#6-3-复杂表格（含合并单元格，需-HTML-支持）" class="headerlink" title="6.3 复杂表格（含合并单元格，需 HTML 支持）"></a>6.3 复杂表格（含合并单元格，需 HTML 支持）</h3><table>
+  <thead>
+    <tr>
+      <th>项目</th>
+      <th>Q1</th>
+      <th>Q2</th>
+      <th>Q3</th>
+      <th>Q4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">营收（万元）</td>
+      <td>120</td>
+      <td>135</td>
+      <td>150</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: center;">年度总营收：585 万元</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+<h2 id="七、图片与媒体测试"><a href="#七、图片与媒体测试" class="headerlink" title="七、图片与媒体测试"></a>七、图片与媒体测试</h2><h3 id="7-1-普通图片"><a href="#7-1-普通图片" class="headerlink" title="7.1 普通图片"></a>7.1 普通图片</h3><p><img src="https://picsum.photos/800/400?random=1" alt="示例图片描述" title="这是一张随机图片"></p>
+<p><em>图 1：由 picsum.photos 生成的随机图片，用于测试图片样式和加载效果。</em></p>
+<h3 id="7-2-带尺寸的图片（HTML-方式）"><a href="#7-2-带尺寸的图片（HTML-方式）" class="headerlink" title="7.2 带尺寸的图片（HTML 方式）"></a>7.2 带尺寸的图片（HTML 方式）</h3><img src="https://picsum.photos/600/300?random=2" alt="带尺寸的图片" width="600" height="300" />
+
+<hr>
+<h2 id="八、Tab-切换组件测试"><a href="#八、Tab-切换组件测试" class="headerlink" title="八、Tab 切换组件测试"></a>八、Tab 切换组件测试</h2><p>以下是一个 Tab 切换组件，用于展示不同环境下的配置示例：</p>
+<p>::: tabs</p>
+<p>&#x3D;&#x3D; 开发环境</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开发环境配置</span></span><br><span class="line">NODE_ENV=development</span><br><span class="line">API_URL=http://localhost:3000</span><br><span class="line">DEBUG=<span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x3D;&#x3D; 测试环境</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 测试环境配置</span></span><br><span class="line">NODE_ENV=<span class="built_in">test</span></span><br><span class="line">API_URL=https://test-api.example.com</span><br><span class="line">DEBUG=<span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x3D;&#x3D; 生产环境</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生产环境配置</span></span><br><span class="line">NODE_ENV=production</span><br><span class="line">API_URL=https://api.example.com</span><br><span class="line">DEBUG=<span class="literal">false</span></span><br><span class="line">LOG_LEVEL=error</span><br></pre></td></tr></table></figure>
+
+<p>:::</p>
+<hr>
+<h2 id="九、数学公式测试（需-KaTeX-MathJax-支持）"><a href="#九、数学公式测试（需-KaTeX-MathJax-支持）" class="headerlink" title="九、数学公式测试（需 KaTeX &#x2F; MathJax 支持）"></a>九、数学公式测试（需 KaTeX &#x2F; MathJax 支持）</h2><h3 id="9-1-行内公式"><a href="#9-1-行内公式" class="headerlink" title="9.1 行内公式"></a>9.1 行内公式</h3><p>爱因斯坦质能方程：$E &#x3D; mc^2$</p>
+<p>勾股定理：$a^2 + b^2 &#x3D; c^2$</p>
+<h3 id="9-2-块级公式"><a href="#9-2-块级公式" class="headerlink" title="9.2 块级公式"></a>9.2 块级公式</h3><p>欧拉公式：</p>
+<p>$$<br>e^{i\pi} + 1 &#x3D; 0<br>$$</p>
+<p>正态分布概率密度函数：</p>
+<p>$$<br>f(x) &#x3D; \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}<br>$$</p>
+<p>矩阵示例：</p>
+<p>$$<br>\begin{bmatrix}<br>1 &amp; 2 &amp; 3 \<br>4 &amp; 5 &amp; 6 \<br>7 &amp; 8 &amp; 9<br>\end{bmatrix}<br>$$</p>
+<hr>
+<h2 id="十、分割线与特殊符号"><a href="#十、分割线与特殊符号" class="headerlink" title="十、分割线与特殊符号"></a>十、分割线与特殊符号</h2><hr>
+<h3 id="10-1-水平分割线"><a href="#10-1-水平分割线" class="headerlink" title="10.1 水平分割线"></a>10.1 水平分割线</h3><p>上面的分割线是 <code>---</code> 的渲染效果。以下是其他风格的分割线（需主题支持）：</p>
+<hr>
+<hr>
+<h3 id="10-2-特殊字符测试"><a href="#10-2-特殊字符测试" class="headerlink" title="10.2 特殊字符测试"></a>10.2 特殊字符测试</h3><ul>
+<li>版权符号：©</li>
+<li>注册商标：®</li>
+<li>商标符号：™</li>
+<li>箭头：→ ← ↑ ↓ ↔</li>
+<li>数学符号：∑ ∫ ∞ √ ≈ ≠ ≤ ≥</li>
+<li>货币符号：$ € ¥ £ ₿</li>
+</ul>
+<hr>
+<h2 id="十一、嵌入内容测试"><a href="#十一、嵌入内容测试" class="headerlink" title="十一、嵌入内容测试"></a>十一、嵌入内容测试</h2><h3 id="11-1-视频嵌入（示例为-YouTube）"><a href="#11-1-视频嵌入（示例为-YouTube）" class="headerlink" title="11.1 视频嵌入（示例为 YouTube）"></a>11.1 视频嵌入（示例为 YouTube）</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="11-2-代码-Pen-CodeSandbox-占位"><a href="#11-2-代码-Pen-CodeSandbox-占位" class="headerlink" title="11.2 代码 Pen &#x2F; CodeSandbox 占位"></a>11.2 代码 Pen &#x2F; CodeSandbox 占位</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 此处可以嵌入 CodePen 或 CodeSandbox 的 iframe，用于展示交互式示例 --&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="十二、文章元信息与目录测试"><a href="#十二、文章元信息与目录测试" class="headerlink" title="十二、文章元信息与目录测试"></a>十二、文章元信息与目录测试</h2><h3 id="文章信息"><a href="#文章信息" class="headerlink" title="文章信息"></a>文章信息</h3><ul>
+<li><strong>作者</strong>：测试博主</li>
+<li><strong>字数</strong>：约 1500 字</li>
+<li><strong>阅读时长</strong>：5 分钟</li>
+<li><strong>分类</strong>：技术 &#x2F; 博客建设</li>
+<li><strong>标签</strong>：测试、Markdown、排版</li>
+</ul>
+<h3 id="目录结构（自动生成，由主题控制）"><a href="#目录结构（自动生成，由主题控制）" class="headerlink" title="目录结构（自动生成，由主题控制）"></a>目录结构（自动生成，由主题控制）</h3><p>如果主题支持自动目录生成，那么这篇文章的多级标题会被自动提取并生成一个树形的目录导航，通常位于文章侧边栏或文章开头。</p>
+<hr>
+<h2 id="十三、总结"><a href="#十三、总结" class="headerlink" title="十三、总结"></a>十三、总结</h2><p>本文档覆盖了博客写作中常见的绝大多数排版元素，包括：</p>
+<ul>
+<li>✅ 多级标题（H2 ~ H6）</li>
+<li>✅ 行内样式（粗体、斜体、删除线、行内代码、链接、脚注）</li>
+<li>✅ 引用与提示块（普通引用、嵌套引用、Tip&#x2F;Warning&#x2F;Danger&#x2F;Info）</li>
+<li>✅ 列表（无序、有序、任务列表、定义列表）</li>
+<li>✅ 代码块（多种语言、无语言、带行号高亮）</li>
+<li>✅ 表格（基础表格、对齐表格、复杂表格）</li>
+<li>✅ 图片与媒体（普通图片、带尺寸图片）</li>
+<li>✅ Tab 切换组件</li>
+<li>✅ 数学公式（行内与块级）</li>
+<li>✅ 分割线与特殊字符</li>
+<li>✅ 嵌入内容（视频、交互式示例）</li>
+</ul>
+<p>如果以上所有元素在您的博客中均能正确渲染，说明博客主题的样式覆盖非常完整。如果有部分元素渲染异常，可以根据本文档定位具体问题并加以修复。</p>
+<hr>
+<p><em>本文档最后更新于 2026 年 7 月 5 日。</em></p>
+<hr>
+<p>[1] 这是一个脚注示例，用于测试脚注功能。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://lzwpluto.github.io/2026/07/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Pluto">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 我的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/07/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">第一篇博客</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-07-05 18:59:49 / 修改时间：19:23:05" itemprop="dateCreated datePublished" datetime="2026-07-05T18:59:49+08:00">2026-07-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E5%88%86%E7%B1%BB/" itemprop="url" rel="index"><span itemprop="name">测试博客分类</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h1><p>嘿嘿</p>
+<h1 id="测试两下"><a href="#测试两下" class="headerlink" title="测试两下"></a>测试两下</h1><p>你好呀！</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Pluto</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
