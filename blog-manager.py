@@ -712,6 +712,13 @@ class BlogManager(ctk.CTk):
 
         def step_deploy(success, stdout, stderr):
             if success:
+                # hexo-deployer-git 不强推，手动 git push --force 确保覆盖
+                deploy_git = BASE_DIR / ".deploy_git"
+                if deploy_git.exists():
+                    subprocess.run(
+                        "git push --force", cwd=str(deploy_git), shell=True,
+                        capture_output=True
+                    )
                 self._log("✓ 部署成功！")
                 self._log(f"访问: {self.config.get('url', 'https://lzwpluto.github.io')}")
                 self._update_status("部署完成")
