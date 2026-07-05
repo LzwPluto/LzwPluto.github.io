@@ -6,7 +6,13 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "push": "npm run clean && npm run build && npm run deploy",
+    "preview": "hexo server --open",
+    "new:post": "powershell -ExecutionPolicy Bypass .\\blog-tool.ps1 new",
+    "sync": "powershell -ExecutionPolicy Bypass .\\blog-tool.ps1 sync",
+    "list": "powershell -ExecutionPolicy Bypass .\\blog-tool.ps1 list",
+    "blog": "powershell -ExecutionPolicy Bypass .\\blog-tool.ps1"
   },
   "hexo": {
     "version": "7.3.0"
