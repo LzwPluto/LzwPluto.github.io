@@ -716,8 +716,8 @@ class BlogManager(ctk.CTk):
                 deploy_git = BASE_DIR / ".deploy_git"
                 if deploy_git.exists():
                     subprocess.run(
-                        "git push --force", cwd=str(deploy_git), shell=True,
-                        capture_output=True
+                        "git push --force origin HEAD:main", cwd=str(deploy_git),
+                        shell=True, capture_output=True
                     )
                 self._log("✓ 部署成功！")
                 self._log(f"访问: {self.config.get('url', 'https://lzwpluto.github.io')}")
